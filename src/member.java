@@ -3,6 +3,8 @@ import java.util.ArrayList;
 public class member {
     String name;
 
+    socialnet SC;
+
     ArrayList<message> newMessages; //список непрочитанных сообщений
     ArrayList<message> sendMessages; //отправленные сообщения
     ArrayList<message> Messages; //сообщения
@@ -10,7 +12,8 @@ public class member {
     ArrayList<member> newFriends; //заявки в друзья
     ArrayList<member> Friends; //друзья
 
-    member(String name) {
+    member(String name, socialnet SC) {
+        this.SC = SC;
         this.name = name;
 
         newMessages = new ArrayList<message>();
@@ -66,4 +69,9 @@ public class member {
             newFriend.deleteNewFriend(this);
         }
     }
+
+    public ArrayList<message> getMessages() {
+        return Messages;
+    }
+
 }

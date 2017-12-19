@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/socialnet.iml" filepath="$PROJECT_DIR$/socialnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socialnetleti.iml" filepath="$PROJECT_DIR$/socialnetleti.iml" />
     </modules>
   </component>
 </project>
